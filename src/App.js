@@ -14,6 +14,7 @@ const App = () => {
   const [winningArray, setWinningArray] = useState(
     Array(winningCombinations.length).fill(false)
   );
+  const WINNING_DISPLAY_TIME = 1000 * 2; // ms * s
 
   useEffect(() => {
     let shuffled = [...ticketNames.sort(() => Math.random() - 0.5)];
@@ -36,7 +37,7 @@ const App = () => {
     setIsWon(true);
     setTimeout(function () {
       setIsWon(false);
-    }, 2000);
+    }, WINNING_DISPLAY_TIME);
     playAllSounds(isMuted);
   }, [winningArray]);
 

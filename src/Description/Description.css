@@ -11,15 +11,8 @@
     }
 }
 
-@media only screen and (min-width: 767px) {
-    .description {
-        font-size: 1rem;
-    }
-}
-
 @media only screen and (min-width: 990px) {
     .description {
         width: 11%;
-        font-size: 1rem;
     }
 }
