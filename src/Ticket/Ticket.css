@@ -1,0 +1,155 @@
+@media only screen and (max-width: 667px){
+    .ticket {
+        width: 18%;
+        height: 18%;
+        background-size: contain;
+        background-color: rgb(44, 43, 43);
+        color: grey;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        font-size: 0.4rem;
+        border-radius: 7%;
+    }
+
+    .ticket:hover {
+        opacity: 0.85;
+        cursor: pointer;
+        background-color: rgb(68, 65, 65);
+        color: rgb(161, 159, 159);
+    }
+
+    .ticket:active {
+        transform: scale(0.9);
+    }
+
+    .ticket.active {
+        justify-content: center;
+        z-index: 1;
+        box-shadow:inset 60px 0 120px #f0f,  /* left magenta */
+        inset -60px 0 120px #0ff; 
+        color: black;
+    }
+
+    .ticket.music {
+        background-color: rgb(231, 60, 223);
+        color: black;
+    }
+
+    .board.win {
+        animation: blinkingBackground 2s infinite;
+        animation-delay: blinkingBackground 2s;
+    }
+
+    @keyframes blinkingBackground{
+        0%		{ background-color: #c01085;}
+        25%		{ background-color: #cf1dc6;}
+        50%		{ background-color: #ecde19;}
+        75% 	{ background-color: #04d596;}
+    }
+}
+@media only screen and (min-width: 667px) {
+    .ticket {
+        width: 18%;
+        height: 18%;
+        background-size: contain;
+        background-color: rgb(44, 43, 43);
+        color: grey;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        font-size: .7rem;
+        border-radius: 7%;
+    }
+    
+    .ticket:hover {
+        opacity: 0.85;
+        cursor: pointer;
+        background-color: rgb(68, 65, 65);
+        color: rgb(161, 159, 159);
+    }
+    
+    .ticket:active {
+        transform: scale(0.9);
+    }
+    
+    .ticket.active {
+        justify-content: center;
+        z-index: 1;
+        box-shadow:inset 60px 0 120px #f0f,  /* left magenta */
+        inset -60px 0 120px #0ff; 
+        color: black;
+    }
+    
+    .ticket.music {
+        background-color: rgb(231, 60, 223);
+        color: black;
+    }
+    
+    .board.win {
+        animation: blinkingBackground 2s infinite;
+        animation-delay: blinkingBackground 2s;
+    }
+    
+    @keyframes blinkingBackground{
+        0%		{ background-color: #c01085;}
+        25%		{ background-color: #cf1dc6;}
+        50%		{ background-color: #ecde19;}
+        75% 	{ background-color: #04d596;}
+    }
+}
+
+@media only screen and (min-width: 995px) {
+    .ticket {
+        background-size: contain;
+        background-color: rgb(44, 43, 43);
+        color: grey;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        font-size: 0.9rem;
+        border-radius: 7%;
+    }
+
+    .ticket:hover {
+        opacity: 0.85;
+        cursor: pointer;
+        background-color: rgb(68, 65, 65);
+        color: rgb(161, 159, 159);
+    }
+
+    .ticket:active {
+        transform: scale(0.9);
+    }
+
+    .ticket.active {
+        justify-content: center;
+        z-index: 1;
+        box-shadow:inset 60px 0 120px #f0f, 
+        inset -60px 0 120px #0ff; 
+        color: black;
+    }
+
+    .ticket.music {
+        background-color: rgb(231, 60, 223);
+        color: black;
+    }
+
+    .board.win {
+        animation: blinkingBackground 2s infinite;
+        animation-delay: blinkingBackground 2s;
+    }
+
+    @keyframes blinkingBackground{
+        0%		{ background-color: #c01085;}
+        25%		{ background-color: #cf1dc6;}
+        50%		{ background-color: #ecde19;}
+        75% 	{ background-color: #04d596;}
+    }
+}

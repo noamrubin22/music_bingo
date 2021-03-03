@@ -1,0 +1,31 @@
+.board {
+    width: 85vw;
+    height: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border: 1px grey solid;
+    border-radius: 5%;
+}
+
+/* tablet */
+@media only screen and (min-width: 667px) {
+.board {
+    width: 60vw;
+    height: 60vw;
+    padding: 1rem;
+}
+}
+
+/* desktop */
+@media only screen and (min-width: 1025px) {
+.board {
+    width: 45vw;
+    height: 45vw;
+    padding: 2rem;
+    margin: 3rem;
+}
+}
