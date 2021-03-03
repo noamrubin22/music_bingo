@@ -1,10 +1,11 @@
-import './App.css';
-import './Board/Board.css';
-import Board from './Board/Board.js';
-import MuteButton from './MuteButton/MuteButton';
-import React, { useState, useEffect } from 'react';
-import { Howl, Howler } from 'howler';
-import { sounds, winningCombinations, ticketNames } from './data';
+import "./App.css";
+import "./Board/Board.css";
+import Board from "./Board/Board.js";
+import MuteButton from "./MuteButton/MuteButton";
+import Description from "./Description/Description";
+import React, { useState, useEffect } from "react";
+import { Howl, Howler } from "howler";
+import { sounds, winningCombinations, ticketNames } from "./data";
 
 const App = () => {
   const [tickets, setTickets] = useState([]);
@@ -16,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
     let shuffled = [...ticketNames.sort(() => Math.random() - 0.5)];
-    shuffled.splice(12, 0, 'CONF CALL MUSIC BINGO');
+    shuffled.splice(12, 0, "CONF CALL MUSIC BINGO");
 
     setTickets(
       shuffled.map((name, index) => {
@@ -84,6 +85,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <Description />
       <Board
         isWon={isWon}
         tickets={tickets}

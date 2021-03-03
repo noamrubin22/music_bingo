@@ -1,31 +1,38 @@
 .board {
-    width: 85vw;
-    height: 85vw;
+    width: 92vw;
+    height: 92vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-evenly;
-    margin-bottom: 1rem;
-    padding: 0.3rem;
+    padding: 0.5rem;
     border: 1px grey solid;
     border-radius: 5%;
 }
 
 /* tablet */
-@media only screen and (min-width: 667px) {
-.board {
-    width: 60vw;
-    height: 60vw;
-    padding: 1rem;
+@media only screen and (min-width: 600px) {
+    .board {
+        width: 75vw;
+        height: 75vw;
+        padding: 0.8rem;
+    }
 }
+
+@media only screen and (min-width: 767px) {
+    .board {
+        width: 60vw;
+        height: 60vw;
+        padding: 0.8rem;
+    }
 }
 
 /* desktop */
-@media only screen and (min-width: 1025px) {
-.board {
-    width: 45vw;
-    height: 45vw;
-    padding: 2rem;
-    margin: 3rem;
-}
+@media only screen and (min-width: 990px) {
+    .board {
+        width: 50vw;
+        height: 50vw;
+        padding: 1.2rem;
+        margin: 3rem;
+    }
 }
