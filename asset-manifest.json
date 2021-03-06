@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/music_bingo/static/css/main.8d304b31.chunk.css",
+    "main.css": "/music_bingo/static/css/main.a80a401a.chunk.css",
     "main.js": "/music_bingo/static/js/main.e0e69d96.chunk.js",
     "main.js.map": "/music_bingo/static/js/main.e0e69d96.chunk.js.map",
     "runtime-main.js": "/music_bingo/static/js/runtime-main.61f07eef.js",
@@ -10,7 +10,7 @@
     "static/js/3.f6d052d3.chunk.js": "/music_bingo/static/js/3.f6d052d3.chunk.js",
     "static/js/3.f6d052d3.chunk.js.map": "/music_bingo/static/js/3.f6d052d3.chunk.js.map",
     "index.html": "/music_bingo/index.html",
-    "static/css/main.8d304b31.chunk.css.map": "/music_bingo/static/css/main.8d304b31.chunk.css.map",
+    "static/css/main.a80a401a.chunk.css.map": "/music_bingo/static/css/main.a80a401a.chunk.css.map",
     "static/js/2.e9de24ac.chunk.js.LICENSE.txt": "/music_bingo/static/js/2.e9de24ac.chunk.js.LICENSE.txt",
     "static/media/0.5b891bef.wav": "/music_bingo/static/media/0.5b891bef.wav",
     "static/media/1.057a952a.wav": "/music_bingo/static/media/1.057a952a.wav",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.61f07eef.js",
     "static/js/2.e9de24ac.chunk.js",
-    "static/css/main.8d304b31.chunk.css",
+    "static/css/main.a80a401a.chunk.css",
     "static/js/main.e0e69d96.chunk.js"
   ]
 }
