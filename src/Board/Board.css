@@ -23,6 +23,7 @@
     .board {
         width: 60vw;
         height: 60vw;
+        padding: 0.8rem;
     }
 }
 
@@ -31,6 +32,15 @@
     .board {
         width: 50vw;
         height: 50vw;
+        padding: 1.2rem;
+        margin: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .board {
+        width: 40vw;
+        height: 40vw;
         padding: 1.2rem;
         margin: 3rem;
     }
